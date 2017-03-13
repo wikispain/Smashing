@@ -4,27 +4,33 @@
   box-sizing: border-box;
 }
 
+#mainmenu{
+	float: right;
+}
+.tinynav{
+	display: none;
+	
+}
+nav{
+	float: left;
+}
 nav ul{
 	list-style: none;
 }
-nav{
-	float: right;
-}
 
-nav li{
+nav ul li{
 	display: inline;
 	padding: 30px;
 	text-transform: uppercase;
 }
 
-nav ul li a{
-	/*display: block;*/
-	
-}
-
-nav ul li a:hover{
+/*nav ul li a{
 	display: block;
-}
+}*/
+
+/*nav ul li a:hover{
+	display: block;
+}*/
 
 
 /*nav ul li>a{ 
