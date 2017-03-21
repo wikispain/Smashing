@@ -3,22 +3,27 @@
   padding: 0;
   box-sizing: border-box;
 }
+/*.container{
+	display: flex;
+}*/
 
+.hero img{
+	width: 100%;
+}
 #mainmenu{
 	float: right;
 }
+
 .tinynav{
 	display: none;
-	
 }
-nav{
-	float: left;
-}
+
 nav ul{
 	list-style: none;
 }
 
 nav ul li{
+	/*display: flex;*/
 	display: inline;
 	padding: 30px;
 	text-transform: uppercase;
